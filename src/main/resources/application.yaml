@@ -1,0 +1,8 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9350
+      cluster-name: local_es_cluster
